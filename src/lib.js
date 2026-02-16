@@ -1,4 +1,4 @@
-const holiday_jp = require('@holiday-jp/holiday_jp');
+import holiday_jp from '@holiday-jp/holiday_jp';
 
 /**
  * 日本の祝日または追加の休日かを判定する関数
@@ -48,6 +48,4 @@ const checkHoliday = (date, additionalHolidays = []) => {
   };
 };
 
-module.exports = {
-  checkHoliday,
-};
+export { checkHoliday };

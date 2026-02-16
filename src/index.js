@@ -1,7 +1,7 @@
 import * as core from '@actions/core';
-const fs = require('fs');
-const path = require('path');
-const { checkHoliday } = require('./lib');
+import fs from 'fs';
+import path from 'path';
+import { checkHoliday } from './lib.js';
 
 /**
  * 追加の休日を読み込む
