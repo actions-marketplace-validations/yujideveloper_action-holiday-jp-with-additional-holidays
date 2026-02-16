@@ -1,4 +1,4 @@
-const { checkHoliday } = require('./lib');
+import { checkHoliday } from './lib.js';
 
 // テスト用のエントリーポイント
 const run = () => {
